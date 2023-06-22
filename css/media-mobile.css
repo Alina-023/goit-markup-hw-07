@@ -1,7 +1,7 @@
 @media screen and (max-width:767px) {
 
     .container {
-    
+        width: 100%;
         padding-left: 15px;
         padding-right: 15px;
         margin-left: auto;
@@ -280,9 +280,10 @@ margin-bottom: 16px;
 }
 .footer-form {
     flex-direction: column;
+    gap: 16;
 }
 .footer-form-input {
-    max-width: 398px;
+    width: 398px;
     opacity: 0.6;
 }
 
