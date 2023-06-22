@@ -1,6 +1,7 @@
 @media screen and (max-width:767px) {
 
     .container {
+
         width: 100%;
         padding-left: 15px;
         padding-right: 15px;
@@ -286,6 +287,5 @@ margin-bottom: 16px;
     width: 398px;
     opacity: 0.6;
 }
-
 
 }
