@@ -273,19 +273,21 @@ margin-bottom: 16px;
 
 .footer-form-paragraph {
     margin-top: 72px;
-    
+    display: block;
+    text-align: center;
 }
 
+
+.footer-form-btn {
+    margin: 0 auto;
+}
 .footer-form {
-    display: flex;
     flex-direction: column;
 }
 .footer-form-input {
     width: 398px;
-    
+    opacity: 0.6;
 }
-.footer-form-input::placeholder {
-    color: #ffffff;
-    
-}
+
+
 }
