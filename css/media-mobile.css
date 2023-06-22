@@ -2,13 +2,13 @@
 
     .container {
     
-            padding-left: 15px;
-            padding-right: 15px;
-            margin-left: auto;
-            margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
         }
- .header {
-     height: 70px;
+    .header {
+        height: 70px;
  }
     .header-list {
         display: none;
@@ -48,7 +48,7 @@
         visibility: hidden;
         pointer-events: none;
         transition: opacity 500ms linear,
-            visibility 500ms linear;
+        visibility 500ms linear;
     }
 
     .mobile-menu.is-open {
@@ -145,24 +145,22 @@
         background-color: #4D5AE5;
     }
 
-   
-
     .hero {
-    max-width: 428px;
-    height: 432px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        max-width: 428px;
+        height: 432px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/hero-bg-mobile.jpg);
-    padding: 112px 0;
+        padding: 112px 0;
 }
 
-.hero-title {
+    .hero-title {
     
-width: 320px;
-font-size: 36px;
-font-family: Roboto;
-line-height: 1.11;
-letter-spacing: 0.72px;
-text-transform: capitalize;
+        width: 320px;
+        font-size: 36px;
+        font-family: Roboto;
+        line-height: 1.11;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
 
 }
 .hero-button {
@@ -277,7 +275,6 @@ margin-bottom: 16px;
     text-align: center;
 }
 
-
 .footer-form-btn {
     margin: 0 auto;
 }
@@ -285,7 +282,7 @@ margin-bottom: 16px;
     flex-direction: column;
 }
 .footer-form-input {
-    width: 398px;
+    max-width: 398px;
     opacity: 0.6;
 }
 
