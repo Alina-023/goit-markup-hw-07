@@ -1,13 +1,12 @@
 @media screen and (max-width:767px) {
 
     .container {
-
-        width: 100%;
         padding-left: 15px;
         padding-right: 15px;
         margin-left: auto;
         margin-right: auto;
         }
+
     .header {
         height: 70px;
  }
@@ -20,6 +19,7 @@
     }
 
     .header {
+        height: 70px;
         padding-top: 24px;
         padding-bottom: 24px;
     }
@@ -82,6 +82,12 @@
     .mobile-menu-list {
         padding: 0;
     }
+
+    .current-mobile-menu {
+        position: relative;
+        color: #404bbf;
+    }
+
 
     .mobile-menu-list-item {
         font-family: 'Roboto';
@@ -281,11 +287,15 @@ margin-bottom: 16px;
 }
 .footer-form {
     flex-direction: column;
-    gap: 16;
+    gap: 16px;
 }
 .footer-form-input {
-    width: 398px;
+    width: 100%;
     opacity: 0.6;
 }
+.footer-form-window {
+    width: 100%;
+}
+
 
 }
