@@ -1,10 +1,10 @@
 @media screen and (max-width:767px) {
 
     .container {
+        width: 100%;
         padding-left: 15px;
         padding-right: 15px;
-        margin-left: auto;
-        margin-right: auto;
+    
         }
 
     .header {
@@ -153,7 +153,7 @@
     }
 
     .hero {
-        max-width: 428px;
+        width: 100%;
         height: 432px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/hero-bg-mobile.jpg);
@@ -162,7 +162,7 @@
 
     .hero-title {
     
-        width: 320px;
+        width: 100%;
         font-size: 36px;
         font-family: Roboto;
         line-height: 1.11;
