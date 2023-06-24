@@ -1,0 +1,36 @@
+@media screen and (min-width: 1158px) {
+
+    .container {
+        max-width: 1158px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin: 0 auto;
+        }
+
+.mobile-menu-open {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+.address-list {
+    flex-direction: row;
+    gap: 40px;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.header {
+    padding: 24px 0px;
+}
+.header-nav {
+    align-items: normal;
+
+}
+    
+}
