@@ -158,7 +158,7 @@ body {
 /*----------------------HERO----------------------- */
 .hero {
 
-        width: 100%;
+        max-width: 1440px;
         margin: 0 auto;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
                 url(../images/People-office.jpg);
@@ -239,8 +239,8 @@ body {
 .services-title {
 
         margin-bottom: 8px;
-
 }
+
 .services-icon-container {
 
         display: flex;
