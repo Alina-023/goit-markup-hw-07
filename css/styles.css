@@ -559,8 +559,10 @@ body {
         .container {
                 max-width:426px;
         }
+        .mobile-menu-pics {
+        gap: 56px;
 }
-
+}
 
 
 .hero {

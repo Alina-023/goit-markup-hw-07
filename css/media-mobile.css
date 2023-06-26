@@ -54,6 +54,8 @@
         transition: opacity 500ms linear,
         visibility 500ms linear;
         overflow-y: auto;
+        display: flex;
+        flex-direction: column;
     }
 
     .mobile-menu.is-open {
@@ -83,6 +85,7 @@
         padding-left: 40px;
         padding-top: 80px;
         padding-bottom: 40px;
+    
     }
 
     .mobile-menu-list {
@@ -120,7 +123,7 @@
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: #4D5AE5;
-        margin-top: 284px;
+        
     }
 
     .mobile-menu-link {
@@ -137,7 +140,7 @@
 
     .mobile-menu-pics {
         display: flex;
-        gap: 56px;
+        justify-content: space-between;
         padding: 0;
         margin-top: 48px;
     }
@@ -158,6 +161,10 @@
         background-color: #4D5AE5;
     }
 
+    .mobile-menu-contacts {
+        margin-top: 100%;
+
+    }
         /*-----------------------HERO------------------------------------*/
     .hero {
         width: 100%;
@@ -313,6 +320,17 @@ margin-bottom: 16px;
     width: 100%;
 }
 
+.modal {
+    width: 100%;
+    padding: 72px 16px 24px 16px;
+    
+}
+.form-input {
+    width: 100%;
+}
+.textarea {
+    width: 100%;
+}
 
 }
 
