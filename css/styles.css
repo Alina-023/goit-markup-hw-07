@@ -488,7 +488,7 @@ body {
 .footer-list-icons {
         display: flex;
         gap: 16px;
-        margin-top: 16px;
+
 }
 
 .footer-list-item {
@@ -561,6 +561,9 @@ body {
         }
         .mobile-menu-pics {
         gap: 56px;
+}
+.modal {
+        max-width: 392px;
 }
 }
 

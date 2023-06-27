@@ -3,6 +3,7 @@
     .container {
         max-width: 766px;
         margin: 0 auto;
+        padding: 0 15px;
     }
 
 /*---------------------HEADER----------------------------------*/
@@ -120,6 +121,7 @@
 }
 .footer-left {
     margin-right: 24px;
+    margin-bottom: 72px;
 }
 .footer-form-window {
     margin-left: 0;

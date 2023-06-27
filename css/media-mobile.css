@@ -80,21 +80,17 @@
     }
 
     .mobile-menu-container {
-        
+        display: flex;
+        flex-direction: column;
         position: relative;
         padding-left: 40px;
         padding-top: 80px;
         padding-bottom: 40px;
-    
+        height: 100%;
     }
 
     .mobile-menu-list {
         padding: 0;
-    }
-
-    .current-mobile-menu {
-        position: relative;
-        color: #404bbf;
     }
 
 
@@ -106,8 +102,15 @@
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        color: #404BBF;
+        
     }
+    .mobile-menu-list-link{
+        color: #2E2F42;
+    }
+    .current-mobile-menu {
+        position: relative;
+        color: #404bbf;
+}
 
     .mobile-menu-list-item:not(:last-child) {
         margin-bottom: 40px;
@@ -162,7 +165,7 @@
     }
 
     .mobile-menu-contacts {
-        margin-top: 100%;
+        margin-top: auto;
 
     }
         /*-----------------------HERO------------------------------------*/
